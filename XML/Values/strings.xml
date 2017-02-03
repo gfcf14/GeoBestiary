@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GeoBestiary</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_find_animal">FindAnimalActivity</string>
+    <string name="title_activity_animals_found">AnimalsFoundActivity</string>
+    <string name="title_activity_display_animal">DisplayAnimalActivity</string>
+    <string name="title_activity_remove_animal">RemoveAnimalActivity</string>
+    <string name="title_activity_add_animal">AddAnimalActivity</string>
+    <string name="title_activity_edit_animal">EditAnimalActivity</string>
+    <string name="title_activity_find_by_name">FindByNameActivity</string>
+    <string name="title_activity_find_by_attributes">FindByAttributesActivity</string>
+    <string name="title_activity_find_animalto_edit">FindAnimaltoEditActivity</string>
+</resources>
