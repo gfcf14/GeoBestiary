@@ -31,6 +31,7 @@ public class DbHelper extends SQLiteOpenHelper {
 
         db.execSQL(SQL_CREATE_TABLE);
 
+        //SAMPLE DATA :)
         addAnimalUponCreate(db, new Animal(new String[] {"Dog", "A member of the Canid species, known for its loyalty and used for a variety of works", "Due to its preference, it is known by humans as man's best friend", "between 6.3 to 34 inches in length", "4", "Ground"}));
         addAnimalUponCreate(db, new Animal(new String[] {"Cat", "A feline, known for always landing on its feet", "This is the most popular animal for internet memes", "between 9.1 to 9.8 inches in length", "4", "Ground"}));
         addAnimalUponCreate(db, new Animal(new String[] {"Horse", "A large animal of the Equidae species, known for its speed and widely domesticated by man", "Horses can be used for heavy work (cold-blooded) or racing (hot-blooded)", "between 4.7 to 6 feet in length", "4", "Ground"}));
